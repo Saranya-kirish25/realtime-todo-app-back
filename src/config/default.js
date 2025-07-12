@@ -1,5 +1,6 @@
+// src/config/default.js
 module.exports = {
-  port: process.env.PORT || 1337,
+  port: 1337,
   dbUri: "",
   jwtSecret: "",
   saltRounds: 10,
