@@ -1,4 +1,3 @@
-// src/config/default.js
 module.exports = {
   port: process.env.PORT || 1337,
   dbUri: "",
@@ -7,4 +6,5 @@ module.exports = {
   corsOrigin: "http://localhost:5173",
   host: "localhost",
 };
+
 
