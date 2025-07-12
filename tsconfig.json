@@ -2,11 +2,12 @@
   "compilerOptions": {
     "rootDir": "./src",
     "outDir": "./dist",
-    "baseUrl": "./",
+    "baseUrl": "./src",
     "paths": {
-      "@common/*": ["src/common/*"],
-      "@features/*": ["src/features/*"],
-    },
+    "@common/*": ["common/*"],
+    "@features/*": ["features/*"]
+  }
+,
     "sourceMap": true,
     "target": "esnext",
     "module": "commonjs",
