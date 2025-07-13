@@ -40,6 +40,8 @@
     "@common": "dist/common",
     "@features": "dist/features"
   },
-  "_moduleDirectories": ["node_modules", "dist"]
+  "_moduleDirectories": [
+    "node_modules",
+    "dist"
+  ]
 }
-
